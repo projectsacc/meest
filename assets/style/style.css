@@ -224,3 +224,35 @@ li {
   margin-bottom: 20px;
   color: #878790;
 }
+
+.data-text-title,
+.data-text-subtitle {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.data-text-subtitle {
+  text-align: left;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+
+  .data-text-title,
+  .data-text-subtitle {
+    font-size: 14px;
+  }
+
+  .data-text-subtitle {
+    font-size: 12px;
+  }
+}
+
+.data-text-list{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px  ;
+}
